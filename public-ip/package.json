@@ -1,0 +1,82 @@
+{
+  "_from": "public-ip@^1.2.0",
+  "_id": "public-ip@1.2.0",
+  "_inBundle": false,
+  "_integrity": "sha1-1LB0sFVCEcCksqx1SWH/D1OvpYQ=",
+  "_location": "/public-ip",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "public-ip@^1.2.0",
+    "name": "public-ip",
+    "escapedName": "public-ip",
+    "rawSpec": "^1.2.0",
+    "saveSpec": null,
+    "fetchSpec": "^1.2.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/public-ip/-/public-ip-1.2.0.tgz",
+  "_shasum": "d4b074b0554211c0a4b2ac754961ff0f53afa584",
+  "_spec": "public-ip@^1.2.0",
+  "_where": "/home/pi/firewalla",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "bin": {
+    "public-ip": "cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/sindresorhus/public-ip/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "dns-socket": "^1.0.0",
+    "meow": "^3.3.0"
+  },
+  "deprecated": false,
+  "description": "Get your public IP address - very fast!",
+  "devDependencies": {
+    "ava": "*",
+    "is-ip": "^1.0.0",
+    "xo": "*"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "homepage": "https://github.com/sindresorhus/public-ip#readme",
+  "keywords": [
+    "cli-app",
+    "cli",
+    "bin",
+    "ip",
+    "ipv4",
+    "ipv6",
+    "address",
+    "external",
+    "public",
+    "machine",
+    "fast",
+    "opendns",
+    "dns"
+  ],
+  "license": "MIT",
+  "name": "public-ip",
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/public-ip.git"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "version": "1.2.0"
+}

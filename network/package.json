@@ -1,0 +1,54 @@
+{
+  "_from": "git+https://git@github.com/melvinto/network.git",
+  "_id": "network@0.3.1",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/network",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "network@git+https://git@github.com/melvinto/network.git",
+    "name": "network",
+    "escapedName": "network",
+    "rawSpec": "git+https://git@github.com/melvinto/network.git",
+    "saveSpec": "git+https://git@github.com/melvinto/network.git",
+    "fetchSpec": "https://git@github.com/melvinto/network.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://git@github.com/melvinto/network.git#08702539869c7aebfddb1bc68dac36c463acfb6d",
+  "_spec": "network@git+https://git@github.com/melvinto/network.git",
+  "_where": "/home/pi/firewalla",
+  "author": {
+    "name": "Tomas Pollak",
+    "email": "tomas@forkhq.com"
+  },
+  "bin": {
+    "network": "bin/network"
+  },
+  "bugs": {
+    "url": "https://github.com/tomas/network/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "async": "^1.5.2",
+    "needle": "1.1.2",
+    "wmic": "^0.1.0"
+  },
+  "deprecated": false,
+  "description": "Cross platform network utilities for Node.js (gateway_ip, MAC address, etc)",
+  "homepage": "https://github.com/tomas/network#readme",
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "name": "network",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomas/network.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.3.1"
+}

@@ -1,0 +1,72 @@
+{
+  "_from": "https://registry.npmjs.org/stats-lite/-/stats-lite-2.0.3.tgz",
+  "_id": "stats-lite@2.0.3",
+  "_inBundle": false,
+  "_integrity": "sha512-USrKwjPX7NgXHuhffQ8Eqh9UyORxiV4YDEx+PxoJSiLsagCbOFFp1auiRPYe14rEGOfs7XkLyVNPCSJQzdfmOA==",
+  "_location": "/stats-lite",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "stats-lite@https://registry.npmjs.org/stats-lite/-/stats-lite-2.0.3.tgz",
+    "name": "stats-lite",
+    "escapedName": "stats-lite",
+    "rawSpec": "https://registry.npmjs.org/stats-lite/-/stats-lite-2.0.3.tgz",
+    "saveSpec": "https://registry.npmjs.org/stats-lite/-/stats-lite-2.0.3.tgz",
+    "fetchSpec": "https://registry.npmjs.org/stats-lite/-/stats-lite-2.0.3.tgz"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/stats-lite/-/stats-lite-2.0.3.tgz",
+  "_shasum": "525f44dad3a0d6d872eb395bfd7bd49668425828",
+  "_spec": "stats-lite@https://registry.npmjs.org/stats-lite/-/stats-lite-2.0.3.tgz",
+  "_where": "/home/pi/firewalla",
+  "author": {
+    "name": "Bryce B. Baril"
+  },
+  "bugs": {
+    "url": "https://github.com/brycebaril/node-stats-lite/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "isnumber": "~1.0.0"
+  },
+  "deprecated": false,
+  "description": "A light statistical package that operates on numeric Arrays.",
+  "devDependencies": {
+    "tape": "~4.2.0"
+  },
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "engines": {
+    "node": ">=2.0.0"
+  },
+  "homepage": "https://github.com/brycebaril/node-stats-lite",
+  "keywords": [
+    "stats",
+    "statistics",
+    "numbers",
+    "math",
+    "sum",
+    "mean",
+    "average",
+    "mode",
+    "median",
+    "percentile",
+    "variance",
+    "deviation"
+  ],
+  "license": "MIT",
+  "main": "stats.js",
+  "name": "stats-lite",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/brycebaril/node-stats-lite.git"
+  },
+  "scripts": {
+    "test": "node test/"
+  },
+  "version": "2.0.3"
+}

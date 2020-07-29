@@ -1,0 +1,61 @@
+{
+  "_from": "git+https://git@github.com/melvinto/node-redis-timeseries.git",
+  "_id": "redis-timeseries@0.4.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/redis-timeseries",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "redis-timeseries@git+https://git@github.com/melvinto/node-redis-timeseries.git",
+    "name": "redis-timeseries",
+    "escapedName": "redis-timeseries",
+    "rawSpec": "git+https://git@github.com/melvinto/node-redis-timeseries.git",
+    "saveSpec": "git+https://git@github.com/melvinto/node-redis-timeseries.git",
+    "fetchSpec": "https://git@github.com/melvinto/node-redis-timeseries.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://git@github.com/melvinto/node-redis-timeseries.git#82406c78ec129c0404c6fefde869742054768802",
+  "_spec": "redis-timeseries@git+https://git@github.com/melvinto/node-redis-timeseries.git",
+  "_where": "/home/pi/firewalla",
+  "author": {
+    "name": "Tony Sokhon"
+  },
+  "bugs": {
+    "url": "https://github.com/tonyskn/node-redis-timeseries/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Manage timeseries data storage in Redis with ease",
+  "devDependencies": {
+    "async": "~0.2.10",
+    "hiredis": "0.x",
+    "redis": "0.x",
+    "vows": "~0.7.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "homepage": "https://github.com/tonyskn/node-redis-timeseries#readme",
+  "keywords": [
+    "Redis",
+    "Timeseries"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "redis-timeseries",
+  "peerDependencies": {
+    "redis": "0.x || 1.x || 2.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tonyskn/node-redis-timeseries.git"
+  },
+  "scripts": {
+    "test": "vows test/*.js"
+  },
+  "version": "0.4.0"
+}
